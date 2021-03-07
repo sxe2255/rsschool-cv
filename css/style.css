@@ -33,7 +33,22 @@ footer ul {
 }
 
 .infoSize {
-    flex: 1 0 40%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.infoSkills {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.infoSkills li, .infoSize li {
+    margin: 0 15px 0 15px;
+    padding: 10px 0 0 0;
 }
 
 .skills {
@@ -46,7 +61,7 @@ footer ul {
     text-align: center;
     flex: 1 0 20%;
 }
-.infoSize div, .skillsInfo div {
+.infoSize div,.infoSkills div, .skillsInfo div {
     display: inline-block;
     width: 32px;
     height: 32px;

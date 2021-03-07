@@ -52,6 +52,46 @@
           <span class="bio">GitHub</span>
         </div>
     </div>
-    
+    <div>
+      <h2>Code example:</h2>
+      <div class="code">
+        <div class="codeExample">
+          <code>
+            if(canvas.getContext){ /* работает только с канвас*/<br>
+            let x = event.layerX;<br>
+            let y = event.layerY; //координаты клика<br>
+            let ctx = canvas.getContext("2d");<br>
+            let pixel = ctx.getImageData(x, y, 1, 1); // получаю значения пикселя по координате<br>
+            let data = pixel.data;<br>
+            rgba = 'rgba(' + data[0] + ', ' + data[1] + ', ' + data[2] + ', ' + (data[3] / 255) + ')';<br>
+            if (current_color.style.backgroundColor != rgba){<br>
+                prev_color.style.backgroundColor = current_color.style.backgroundColor; <br>
+            }<br>
+            current_color.style.backgroundColor = rgba;<br>
+            }
+          </code>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2>Experience:</h2>
+      <span>Temporarily absent</span>
+    </div>
+    <div>
+      <h2>Education</h2>
+        <h3>Higher education.</h3>
+        <span>2011-2016 BSUIR (Faculty: Information security in telecommunication)</span>
+        <span>2016-2018 BSUIR Master Degree (Faculty: Information security in telecommunication)</span>
+        <h3>Courses</h3>
+        <span>2018 IT-Academy: Website development using HTML, CSS and JavaScript</span>
+    </div>
+  </article>
+  <footer>
+    <ul>
+      <li><a href="https://github.com/sxe2255" title="My GitHub">My GitHub</a></li>
+      <li><a href="https://rs.school/js/" title="The Rolling Scopes"><div class="icon-RS"></div></a></li>
+      <li>2021</li>
+    </ul>
+  </footer>
 </body>
 </html>

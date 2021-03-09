@@ -1,0 +1,160 @@
+/*Block model*/
+
+body {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    margin: 1em;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin: 30px 0 0 0;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.infoSize {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.infoSkills {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.infoSkills li, .infoSize li {
+    margin: 0 15px 0 15px;
+    padding: 10px 0 0 0;
+}
+
+.skills {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.skillsInfo {
+    text-align: center;
+    flex: 1 0 20%;
+}
+.infoSize div,.infoSkills div, .skillsInfo div {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+}
+
+/*Typography*/
+
+body {
+    font-family: "Georgia", "Arial", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+span.bio {
+    margin-left: 5px;
+}
+
+ul li{
+    list-style-type: none;
+    margin: 0 30px 0 30px;
+}
+
+/*Decor*/
+
+h2 {
+    border-bottom: gray 1px solid;
+}
+
+header ul li {
+    list-style-type: none;
+}
+
+img {
+    border: solid 1px gray;
+    box-shadow: 6px 6px 20px 0px rgb(205, 198, 198);
+}
+
+.indention {
+    margin-left: 2em;
+}
+
+.code {
+    background-color: #cfcfcf7d;
+}
+.codeExample {
+    padding: 10px 0 10px 50px;
+}
+
+.icon-html {
+    background: url(../images/svg/html.svg);
+    background-repeat: no-repeat;
+}
+
+.icon-js {
+    background: url(../images/svg/js.svg);
+    background-repeat: no-repeat;
+}
+
+.icon-location {
+    background: url(../images/svg/location.svg);
+    background-repeat: no-repeat;
+}
+
+.icon-phone {
+    background: url(../images/svg/phone.svg);
+    background-repeat: no-repeat;
+}
+
+.icon-bio {
+    background: url(../images/svg/bio.svg);
+    background-repeat: no-repeat;
+}
+
+.icon-css {
+    background: url(../images/svg/css.svg);
+    background-repeat: no-repeat;
+}
+
+.icon-email {
+    background: url(../images/svg/email.svg);
+    background-repeat: no-repeat;
+}
+
+.icon-git {
+    background: url(../images/svg/git.svg);
+    background-repeat: no-repeat;
+}
+
+.icon-RS {
+    background: url(../images/svg/rs_school_js.svg);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 40px;
+}

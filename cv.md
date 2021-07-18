@@ -25,13 +25,3 @@
             current_color.style.backgroundColor = rgba;
          }
     ```
-- Experience:
-    **Temporarily absent**
-- Education:
-	1. Higher education:
-		- 2011-2016 BSUIR (Faculty: Information security in telecommunication)
-		- 2016-2018 BSUIR Master Degree (Faculty: Information security in telecommunication)
-	2. Courses:
-		- 2018 IT-Academy: Website development using HTML, CSS and JavaScript
-- English level:
-    - A2

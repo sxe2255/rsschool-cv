@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ilya Kanapelka</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <figure>
+      <img src="images/Photo.jpg" alt="Photo" width="150" height="180">
+    </figure>
+    <div class="indention">
+      <h1>Ilya Kanapelka</h1>
+      <ul class="infoSize">
+        <li><div class="icon-location"></div><span class="bio">Republic of Belarus, Minsk</span></li>
+        <li><div class="icon-email"></div><span class="bio">Email: sxe8.91@gmail.com</span></li>
+        <li><div class="icon-phone"></div><span class="bio">Phone: +375291398321</span></li>
+        <li><div class="icon-bio"></div><span class="bio">English level: A2</span></li>
+      </ul>
+    </div>
+  </header>
+  <article>
+    <h2>Summary</h2>
+    <p>At the moment, I working for the “Farnell” at the engineer and I handle the repairing of atms. I finished courses “Website development using HTML, CSS and JavaScript” and I want evolve and develop as a web developer.</p>      
+    <h2>Skills</h2>
+      <ul class="infoSkills">
+      <li><div class="icon-html"></div><span class="bio">Html</span></li>
+      <li><div class="icon-css"></div><span class="bio">CSS</span></li>
+      <li><div class="icon-js"></div><span class="bio">JavaScript</span></li>
+      <li><div class="icon-git"></div><span class="bio">GitHub</span></li>
+    </ul>
+    <div>
+      <h2>Code example:</h2>
+      <div class="code">
+        <div class="codeExample">
+          <code>
+            if(canvas.getContext){ /* работает только с канвас*/<br>
+            let x = event.layerX;<br>
+            let y = event.layerY; //координаты клика<br>
+            let ctx = canvas.getContext("2d");<br>
+            let pixel = ctx.getImageData(x, y, 1, 1); // получаю значения пикселя по координате<br>
+            let data = pixel.data;<br>
+            rgba = 'rgba(' + data[0] + ', ' + data[1] + ', ' + data[2] + ', ' + (data[3] / 255) + ')';<br>
+            if (current_color.style.backgroundColor != rgba){<br>
+                prev_color.style.backgroundColor = current_color.style.backgroundColor; <br>
+            }<br>
+            current_color.style.backgroundColor = rgba;<br>
+            }
+          </code>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2>Experience:</h2>
+      <span>Temporarily absent</span>
+    </div>
+    <div>
+      <h2>Education</h2>
+        <h3>Higher education.</h3>
+        <span>2011-2016 BSUIR (Faculty: Information security in telecommunication)</span>
+        <span>2016-2018 BSUIR Master Degree (Faculty: Information security in telecommunication)</span>
+        <h3>Courses</h3>
+        <span>2018 IT-Academy: Website development using HTML, CSS and JavaScript</span>
+    </div>
+  </article>
+  <footer>
+    <nav>
+      <ul>
+        <li><a href="https://github.com/sxe2255" title="My GitHub">My GitHub</a></li>
+        <li><a href="https://rs.school/js/" title="The Rolling Scopes"><div class="icon-RS"></div></a></li>
+        <li>2021</li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+</html>
